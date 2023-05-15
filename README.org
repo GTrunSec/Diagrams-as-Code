@@ -4,8 +4,7 @@
 #+DATE: 2023-05-14 Sun 15:19
 
 
-Using graphs to describe infrastructure and architecture is a consensus, but which method is the best choice has been debated so far. [[https://diagrams.mingrammer.com/docs/getting-started/examples][Python Diagrams As Infra]] provides a more simple, and the d2 has a powerful DSL and
-d2 studio for editing/viewing.
+Using graphs to describe infrastructure and architecture is a consensus, but which method is the best choice has been debated so far. [[https://diagrams.mingrammer.com/docs/getting-started/examples][Python Diagrams As Infra]] provides a more simple way, but d2 has a powerful DSL and [[https://terrastruct.com/d2-studio/][d2-studio]] for editing/viewing.
 
 
 * Diagram Tools
@@ -27,7 +26,7 @@ https://www.ilograph.com/blog/posts/its-time-to-drop-drag-and-drop-diagram-tools
 ** https://structurizr.com/
 * Database As Code
 
-After I tried to use [[https://github.com/GTrunSec/matrix-attack-data/tree/main/data][matrix-attack-data]] to generate various data formats, I realized that I needed a visual document that could clearly describe the relationship between mixed data and help me audit the data type and make modifications (such as vast-query, data-schema, queryLang). Secondly, I also hope to be able to import metadata like miter-attack/[[https://github.com/swimlane/pyattck/tree/master][pyattack]] into such documents to help me think about how to build a valid data model. (workflow: use the d2 to draw an [[https://github.com/center-for-threat-informed-defense/attack-flow][attack-flow]](Attack Flow Builder), then use that dbdocs to build the metadata for querying and reviewing)
+After I tried to use [[https://github.com/GTrunSec/matrix-attack-data/tree/main/data][matrix-attack-data]] to generate various data formats, I realized that I needed a visual document that could clearly describe the relationship between mixed data and help me audit the data type and make modifications (such as vast-query, data-schema, queryLang). Secondly, I also hope to be able to import metadata like miter-attack/[[https://github.com/swimlane/pyattck/tree/master][pyattack]] into such documents to help me think about how to build a valid data model. (workflow: use the d2 to draw an [[https://github.com/center-for-threat-informed-defense/attack-flow][attack-flow]](), then use that dbdocs to build the metadata for querying and reviewing)
 
 - https://dbdocs.io/
 - https://dbterd.datnguyen.de/1.2/nav/guide/targets/generate-dbml.html
