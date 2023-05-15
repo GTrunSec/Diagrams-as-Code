@@ -12,6 +12,8 @@
 
 * Example
 
+- https://gtrunsec.github.io/Diagrams-as-Code/posts/ilograph-simple/
+
 #+begin_src sh :async t
 /Applications/Ilograph\ Desktop.app/Contents/MacOS/Ilograph\ Desktop  simple.yaml -o simple.html
 #+end_src

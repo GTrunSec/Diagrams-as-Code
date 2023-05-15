@@ -27,7 +27,7 @@ jobs:
         run: |
           nix develop .#docs -c mkdoc
           mkdir -p ./docs/publish/public/posts/ilograph-simple
-          cp ./diagrams/ilograph/simple.html ./docs/publish/public/posts/ilograph-simple/.
+          cp ./diagrams/ilograph/simple.html ./docs/publish/public/posts/ilograph-simple/index.html
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
