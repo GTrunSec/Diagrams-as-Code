@@ -1,3 +1,4 @@
+# [[file:../../docs/org/ilograph.org::*Example][Example:2]]
 resources:
 - name: Users
   subtitle: Users of the system
@@ -51,3 +52,4 @@ perspectives:
     [AWS Diagram (Relation)](https://app.ilograph.com/demo.ilograph.Ilograph/Request)
     [AWS Diagram (Sequence)](https://app.ilograph.com/demo.ilograph.Ilograph/Get%2520diagram)
     [Datacenter Diagram](https://app.ilograph.com/demo.ilograph.Stack%2520Overflow%2520Architecture%2520\(2016\)/Traffic)
+# Example:2 ends here
