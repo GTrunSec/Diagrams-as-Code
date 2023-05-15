@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Diagrams As Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 May 2023 17:33:00 +0000</lastBuildDate><atom:link href="https://gtrunsec.github.io/Diagrams-as-Code/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 May 2023 17:40:00 +0000</lastBuildDate><atom:link href="https://gtrunsec.github.io/Diagrams-as-Code/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>https://gtrunsec.github.io/Diagrams-as-Code/posts/python/</link>
+      <pubDate>Sun, 14 May 2023 17:40:00 +0000</pubDate>
+      
+      <guid>https://gtrunsec.github.io/Diagrams-as-Code/posts/python/</guid>
+      <description>simple from diagrams import Diagram from diagrams.aws.compute import EC2 with Diagram(&amp;#34;Simple Diagram&amp;#34;, filename=&amp;#39;images/simple_diagram&amp;#39;, ): EC2(&amp;#34;web&amp;#34;) # return filename to org-mode return &amp;#39;images/simple_diagram.png&amp;#39; aws event processing aws #!/usr/bin/env python3 # coding=utf-8 # vim:ts=4:sts=4:sw=4:et # # Author: Hari Sekhon # Date: 2023-04-14 13:54:52 +0100 (Fri, 14 Apr 2023) # # https://github.com/HariSekhon/Diagrams-as-Code # # License: see accompanying Hari Sekhon LICENSE file # # If you&amp;#39;re using my code you&amp;#39;re welcome to connect with me on LinkedIn # and optionally send me feedback to help steer this or other code I publish # # https://www.</description>
+    </item>
+    
     <item>
       <title>dotsk</title>
       <link>https://gtrunsec.github.io/Diagrams-as-Code/posts/dotsk/</link>
