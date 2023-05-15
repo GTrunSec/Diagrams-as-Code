@@ -12,7 +12,7 @@
 * kubernetes_on_premise
 
 
-#+BEGIN_SRC d2 :file kubernetes_on_premise.png :flags --theme 200 :exports both :tangle (concat (org-entry-get nil "PRJ-DIR" t) "/kubernetes_on_premise.d2")
+#+BEGIN_SRC d2 :file images/kubernetes_on_premise.png :flags --theme 200 :exports both :tangle (concat (org-entry-get nil "PRJ-DIR" t) "/kubernetes_on_premise.d2")
 #!/usr/bin/env d2 --theme 200
 #
 #  Author: Hari Sekhon

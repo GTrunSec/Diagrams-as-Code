@@ -12,7 +12,7 @@
 
 * simple
 
-#+begin_src dotsk :file dotsk-simple.svg :exports both :tangle (concat (org-entry-get nil "PRJ-DIR" t) "/kubernetes_on_premise.d2")
+#+begin_src dotsk :file images/dotsk-simple.svg :exports both :tangle (concat (org-entry-get nil "PRJ-DIR" t) "/kubernetes_on_premise.d2")
 # http://www.graphviz.org/content/cluster
 
 digraph G {

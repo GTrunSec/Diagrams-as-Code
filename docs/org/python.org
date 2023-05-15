@@ -16,19 +16,21 @@
 from diagrams import Diagram
 from diagrams.aws.compute import EC2
 
-with Diagram("Simple Diagram"):
+with Diagram("Simple Diagram",
+             filename='images/simple_diagram',
+             ):
     EC2("web")
 
 # return filename to org-mode
-return 'simple_diagram.png'
+return 'images/simple_diagram.png'
 #+end_src
 
 #+RESULTS:
-[[file:simple_diagram.png]]
+[[file:images/simple_diagram.png]]
 
 
 
-* aws_event_processing
+* aws event processing :aws:
 
 #+begin_src python :exports both :tangle (concat (org-entry-get nil "PRJ-DIR" t) "/aws_event_processing.py") :results file
 #!/usr/bin/env python3
@@ -79,7 +81,7 @@ graph_attr = {
 # Nest clusters
 with Diagram("AWS Event Processing",
              show=not bool(os.environ.get('CI', 0)),
-             filename='aws_event_processing',
+             filename='images/aws_event_processing',
              graph_attr=graph_attr,
              ):
     eks = EKS("EKS source")
@@ -106,8 +108,8 @@ with Diagram("AWS Event Processing",
     lambdas >> s3
     lambdas >> redshift
 
-return "aws_event_processing.png"
+return "images/aws_event_processing.png"
 #+end_src
 
 #+RESULTS:
-[[file:aws_event_processing.png]]
+[[file:images/aws_event_processing.png]]
