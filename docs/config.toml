@@ -1,7 +1,9 @@
 baseURL = "https://gtrunsec.github.io/Diagrams-as-Code"
 languageCode = "en-us"
-title = "Cells Lab"
+title = "Diagrams As Code"
 theme = "cortex"
+canonifyURLs = true
+
 
 [params]
 email = "gtrunsec@hardenedlinux.org"
