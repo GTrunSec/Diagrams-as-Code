@@ -50,4 +50,4 @@ digraph G {
 #+end_src
 
 #+RESULTS:
-[[file:dotsk-simple.svg]]
+[[file:images/dotsk-simple.svg]]
