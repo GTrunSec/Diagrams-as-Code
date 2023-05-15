@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       74355f6b-cd2a-489a-884e-feb3138f935d
+:header-args: :noweb tangle :comments noweb :exports both
+:PRJ-DIR: ../../diagrams/graphviz
+:END:
+#+TITLE: dotsk
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2023-05-14 Sun 17:33
+
+
+
+* simple
+
+#+begin_src dotsk :file dotsk-simple.svg :exports both :tangle (concat (org-entry-get nil "PRJ-DIR" t) "/kubernetes_on_premise.d2")
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+
+  bgcolor=transparent;
+
+  subgraph cluster_0 {
+    style=filled;
+    node [style=filled,color=pink];
+    a0 -> a1 -> a2 -> a3;
+    label = "*process #1*";
+    fontsize = 20;
+  }
+
+  subgraph cluster_1 {
+    node [style=filled];
+    b0 -> b1 -> b2 -> b3;
+    label = "*process #2*";
+    fontsize = 20;
+  }
+  start -> a0;
+  start -> b0;
+  a1 -> b3;
+  b2 -> a3;
+  a3 -> a0;
+  a3 -> end;
+  b3 -> end;
+
+  start [shape=Mdiamond];
+  end [shape=Msquare];
+}
+#+end_src
+
+#+RESULTS:
+[[file:dotsk-simple.svg]]

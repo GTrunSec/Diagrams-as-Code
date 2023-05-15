@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       08b55910-4c6b-4b19-bbe9-019b05f34c13
+:header-args: :dir ../../diagrams/ilograph
+:END:
+#+TITLE: ilograph
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2023-05-14 Sun 16:04
+
+
+
+
+* Example
+
+#+begin_src sh :async t
+/Applications/Ilograph\ Desktop.app/Contents/MacOS/Ilograph\ Desktop  simple.yaml -o simple.html
+#+end_src

@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "pyDiagrams": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673571499,
+        "narHash": "sha256-4b+jmR56y2VV0XxD6FCmNpDB0UKH9+FqcTQuU2jRCXo=",
+        "owner": "mingrammer",
+        "repo": "diagrams",
+        "rev": "a71e447dc0b3f83ca2bbbd3e6a1d321ffb4257c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mingrammer",
+        "repo": "diagrams",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "pyDiagrams": "pyDiagrams"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

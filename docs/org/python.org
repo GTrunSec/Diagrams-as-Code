@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       6d87ec0f-f726-4240-857e-f324073a82fc
+:header-args: :noweb tangle :comments noweb :exports both
+:PRJ-DIR: ../../diagrams/python
+:END:
+#+TITLE: python
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2023-05-14 Sun 17:40
+
+
+
+* simple
+
+#+begin_src python :exports both :tangle (concat (org-entry-get nil "PRJ-DIR" t) "/simple.python") :results file
+from diagrams import Diagram
+from diagrams.aws.compute import EC2
+
+with Diagram("Simple Diagram"):
+    EC2("web")
+
+# return filename to org-mode
+return 'simple_diagram.png'
+#+end_src
+
+#+RESULTS:
+[[file:simple_diagram.png]]
