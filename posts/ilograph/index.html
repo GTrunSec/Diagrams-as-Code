@@ -33,7 +33,60 @@
 </ul>
 <!--listend-->
 <div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>/Applications/Ilograph<span style="color:#4070a0;font-weight:bold">\ </span>Desktop.app/Contents/MacOS/Ilograph<span style="color:#4070a0;font-weight:bold">\ </span>Desktop  simple.yaml -o simple.html
-</span></span></code></pre></div>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#062873;font-weight:bold">resources</span>:<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>Users<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">subtitle</span>:<span style="color:#bbb"> </span>Users of the system<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">color</span>:<span style="color:#bbb"> </span>Gray<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">style</span>:<span style="color:#bbb"> </span>plural<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">icon</span>:<span style="color:#bbb"> </span>Networking/user.svg<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>My Environment<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">subtitle</span>:<span style="color:#bbb"> </span>Environment<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">color</span>:<span style="color:#bbb"> </span>navy<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">children</span>:<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>Service A<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">subtitle</span>:<span style="color:#bbb"> </span>Service<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">icon</span>:<span style="color:#bbb"> </span>Networking/cloud-server.svg<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>Service B<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">subtitle</span>:<span style="color:#bbb"> </span>Service<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">color</span>:<span style="color:#bbb"> </span>Firebrick<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">icon</span>:<span style="color:#bbb"> </span>Networking/cloud-server.svg<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>Data Store X<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">subtitle</span>:<span style="color:#bbb"> </span>Database<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">color</span>:<span style="color:#bbb"> </span>Purple<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">description</span>:<span style="color:#bbb"> </span>This is a description<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">icon</span>:<span style="color:#bbb"> </span>Networking/database.svg<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">perspectives</span>:<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>Dependency<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">relations</span>:<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span>- <span style="color:#062873;font-weight:bold">from</span>:<span style="color:#bbb"> </span>Users<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">to</span>:<span style="color:#bbb"> </span>Service A, Service B<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">label</span>:<span style="color:#bbb"> </span>Use<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span>- <span style="color:#062873;font-weight:bold">from</span>:<span style="color:#bbb"> </span>Service A<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">to</span>:<span style="color:#bbb"> </span>Data Store X<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">label</span>:<span style="color:#bbb"> </span>Read<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span>- <span style="color:#062873;font-weight:bold">from</span>:<span style="color:#bbb"> </span>Service B<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">to</span>:<span style="color:#bbb"> </span>Data Store X<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">label</span>:<span style="color:#bbb"> </span>Read/Write<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span><span style="color:#062873;font-weight:bold">description</span>:<span style="color:#bbb"> </span>Labels can be given extended descriptions, like this<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#062873;font-weight:bold">notes</span>:<span style="color:#bbb"> </span>|-<span style="color:#4070a0;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">    Welcome to your Ilograph diagram.
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">    Your diagram comes pre-populated with resources and a sample perspective.
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">    **Need Help**? Read [Creating your first Ilograph diagram in 5 minutes](https://www.ilograph.com/docs/editing/tutorial/#making-some-simple-changes). Additional resources are available on the [Ilograph Docs](https://www.ilograph.com/docs/editing/).
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">    **Example Diagrams**
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">    [AWS Diagram (Relation)](https://app.ilograph.com/demo.ilograph.Ilograph/Request)
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">    [AWS Diagram (Sequence)](https://app.ilograph.com/demo.ilograph.Ilograph/Get%2520diagram)
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0;font-style:italic">    [Datacenter Diagram](https://app.ilograph.com/demo.ilograph.Stack%2520Overflow%2520Architecture%2520\(2016\)/Traffic)</span><span style="color:#bbb">    
+</span></span></span></code></pre></div>
       </div>
       
 

@@ -40,7 +40,7 @@
       <pubDate>Sun, 14 May 2023 16:04:00 +0000</pubDate>
       
       <guid>https://gtrunsec.github.io/Diagrams-as-Code/posts/ilograph/</guid>
-      <description>Example https://gtrunsec.github.io/Diagrams-as-Code/posts/ilograph-simple/ /Applications/Ilograph\ Desktop.app/Contents/MacOS/Ilograph\ Desktop simple.yaml -o simple.html </description>
+      <description>Example https://gtrunsec.github.io/Diagrams-as-Code/posts/ilograph-simple/ /Applications/Ilograph\ Desktop.app/Contents/MacOS/Ilograph\ Desktop simple.yaml -o simple.html resources: - name: Users subtitle: Users of the system color: Gray style: plural icon: Networking/user.svg - name: My Environment subtitle: Environment color: navy children: - name: Service A subtitle: Service icon: Networking/cloud-server.svg - name: Service B subtitle: Service color: Firebrick icon: Networking/cloud-server.svg - name: Data Store X subtitle: Database color: Purple description: This is a description icon: Networking/database.svg perspectives: - name: Dependency relations: - from: Users to: Service A, Service B label: Use - from: Service A to: Data Store X label: Read - from: Service B to: Data Store X label: Read/Write description: Labels can be given extended descriptions, like this notes: |- Welcome to your Ilograph diagram.</description>
     </item>
     
   </channel>
