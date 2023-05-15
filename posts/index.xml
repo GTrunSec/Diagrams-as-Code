@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Cells Lab</title>
+    <title>Posts on Diagrams As Code</title>
     <link>https://gtrunsec.github.io/Diagrams-as-Code/posts/</link>
-    <description>Recent content in Posts on Cells Lab</description>
+    <description>Recent content in Posts on Diagrams As Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 May 2023 17:40:00 +0000</lastBuildDate><atom:link href="https://gtrunsec.github.io/Diagrams-as-Code/posts/index.xml" rel="self" type="application/rss+xml" />
