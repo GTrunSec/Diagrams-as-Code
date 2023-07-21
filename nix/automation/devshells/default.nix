@@ -7,6 +7,7 @@
   pythonEnv = nixpkgs.python3.withPackages (ps:
     with ps; [
       diagrams
+      python-lsp-server
     ]);
 in
   l.mapAttrs (_: std.lib.dev.mkShell) {
@@ -24,7 +25,7 @@ in
       ];
 
       nixago = l.flatten [
-        cell.nixago.treefmt
+        (inputs.std-ext.preset.nixago.treefmt cell.configs.treefmt)
         # (l.attrValues inputs.cells.ilograph.nixago)
       ];
     };

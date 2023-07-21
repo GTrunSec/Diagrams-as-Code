@@ -4,7 +4,6 @@ title = "Diagrams As Code"
 theme = "cortex"
 canonifyURLs = true
 
-
 [params]
 email = "gtrunsec@hardenedlinux.org"
 footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."

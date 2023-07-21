@@ -15,9 +15,11 @@
     '';
 in {
   example = {
-    resources = [{
-      name = "My Environmentresources";
-    }];
+    resources = [
+      {
+        name = "My Environmentresources";
+      }
+    ];
     perspectives = [];
   };
   importSimple = l.importJSON (toJSON (diagrams + "/simple.yaml"));

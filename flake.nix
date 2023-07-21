@@ -9,7 +9,8 @@
   };
   outputs = {std, ...} @ inputs:
     std.growOn {
-      inherit inputs;
+      inputs = inputs // (inputs.flops.lib.flake.pops.default.setInitInputs ./lock).outputsForInputs;
+
       cellsFrom = ./nix;
 
       cellBlocks = with std.blockTypes; [
@@ -21,7 +22,7 @@
         (runnables "entrypoints")
 
         (functions "lib")
-        (data "config")
+        (data "configs")
 
         (functions "packages")
 
