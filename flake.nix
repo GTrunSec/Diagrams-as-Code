@@ -16,8 +16,8 @@
       cellBlocks = with std.blockTypes; [
         (installables "packages")
 
-        (functions "devshellProfiles")
-        (devshells "devshells")
+        (functions "shellsProfiles")
+        (devshells "shells")
 
         (runnables "entrypoints")
 
@@ -31,6 +31,6 @@
         (nixago "nixago")
       ];
     } {
-      devShells = inputs.std.harvest inputs.self ["automation" "devshells"];
+      devShells = inputs.std.harvest inputs.self ["automation" "shells"];
     };
 }

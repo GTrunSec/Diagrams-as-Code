@@ -11,6 +11,7 @@ in
         excludes = append [
           "conf/*"
           "data/*"
+          "*.html"
         ];
       };
     };
