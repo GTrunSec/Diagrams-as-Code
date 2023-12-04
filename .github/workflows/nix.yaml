@@ -30,7 +30,7 @@ jobs:
           cp ./diagrams/ilograph/simple.html ./docs/publish/public/posts/ilograph-simple/index.html
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages
           folder: ./docs/publish/public
